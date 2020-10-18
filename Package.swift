@@ -10,8 +10,8 @@ let package = Package(
         .library(name: "WebSocketKit", targets: ["WebSocketKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("val-verde-mainline")),
-        .package(url: "https://github.com/val-verde/swift-nio-ssl.git", .branch("val-verde-mainline")),
+        .package(url: "https://github.com/val-verde/swift-nio.git", .branch("val-verde-android-mainline")),
+        .package(url: "https://github.com/val-verde/swift-nio-ssl.git", .branch("val-verde-android-mainline")),
     ],
     targets: [
         .target(name: "WebSocketKit", dependencies: [
